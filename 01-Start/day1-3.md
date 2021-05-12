@@ -9,6 +9,16 @@
 2. [W3Schools.com/HTML](https://www.w3schools.com/html/)
 
 
+---
+#### 5/12일 과제
+
+1. git pages 만들어 보기
+2. 공부할 레포지토리 만들고 강사에게 레포지토리 링크 보내기
+   - 링크
+   - 이름
+
+
+
 ## 1. 컴퓨터 구조
 
 
