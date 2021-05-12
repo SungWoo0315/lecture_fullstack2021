@@ -2,8 +2,12 @@
 
 강사제공 ppt 로 진행 / 배포금지 / 공유금지 / 읽고 버리기!
 
-## 0.github
+## 0.소개
 
+day1 칠판 [/01-Start/day1_3/day1.pdf](https://github.com/qkboo/lecture_fullstack2021/blob/master/01-Start/day1_3/day1.pdf)
+
+
+#### github 참고용 링크
 
 1. [Github markdown](https://guides.github.com/features/mastering-markdown/)
 2. [W3Schools.com/HTML](https://www.w3schools.com/html/)
