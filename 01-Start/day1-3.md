@@ -2,10 +2,19 @@
 
 강사제공 ppt 로 진행 / 배포금지 / 공유금지 / 읽고 버리기!
 
-1. 컴퓨터 구조
-2. 쉽게풀어쓴 프로그래밍 이해
-3. CPU-Memory
-4. 정보의 표현
+## 0.github
+
+
+1. [Github markdown](https://guides.github.com/features/mastering-markdown/)
+2. [W3Schools.com/HTML](https://www.w3schools.com/html/)
+
+
+## 1. 컴퓨터 구조
+
+
+## 2. 쉽게풀어쓴 프로그래밍 이해
+## 3. CPU-Memory
+## 4. 정보의 표현
 
 
 교재:
