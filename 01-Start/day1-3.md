@@ -4,6 +4,20 @@
 
 ## 0.소개
 
+## Day2
+
+#### Day2 과제
+
+"03.정보의표현.pdf" 자료의 
+
+1. p16, p20, p41 해보기
+
+
+
+---
+
+##  Day1
+
 day1 칠판 [/01-Start/day1_3/day1.pdf](https://github.com/qkboo/lecture_fullstack2021/blob/master/01-Start/day1_3/day1.pdf)
 
 
@@ -11,7 +25,6 @@ day1 칠판 [/01-Start/day1_3/day1.pdf](https://github.com/qkboo/lecture_fullsta
 
 1. [Github markdown](https://guides.github.com/features/mastering-markdown/)
 2. [W3Schools.com/HTML](https://www.w3schools.com/html/)
-
 
 ---
 #### 5/12일 과제
