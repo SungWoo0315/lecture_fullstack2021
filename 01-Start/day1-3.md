@@ -6,6 +6,10 @@
 
 ## Day2
 
+#### JDK Tools
+
+- https://docs.oracle.com/en/java/javase/16/docs/specs/man/index.html
+
 #### Day2 과제
 
 "03.정보의표현.pdf" 자료의 
