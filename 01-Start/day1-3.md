@@ -6,11 +6,19 @@
 
 ## Day2
 
+### 1. 컴퓨터 구조
+### 2. 쉽게풀어쓴 프로그래밍 이해
+### 3. CPU-Memory
+### 4. 정보의 표현
+
+### Java 교재
+
 #### JDK Tools
 
 - https://docs.oracle.com/en/java/javase/16/docs/specs/man/index.html
 
-#### Day2 과제
+
+### Day2 과제
 
 1. **"03.정보의표현.pdf"** 자료의 p16, p20, p41 해보기
 2. Java **교재**의 p90쪽까지 읽고 오기!!!
@@ -37,15 +45,6 @@ day1 칠판 [/01-Start/day1_3/day1.pdf](https://github.com/qkboo/lecture_fullsta
    - 이름
 3. 자바 교재 : P90쪽 까지 읽어 주세요.
 
-
----
-
-## 1. 컴퓨터 구조
-
-
-## 2. 쉽게풀어쓴 프로그래밍 이해
-## 3. CPU-Memory
-## 4. 정보의 표현
 
 
 교재:
