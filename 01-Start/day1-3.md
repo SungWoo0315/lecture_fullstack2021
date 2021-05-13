@@ -11,7 +11,7 @@
 ### 3. CPU-Memory
 ### 4. 정보의 표현
 
-### Java 교재
+### 5. Java 교재
 
 #### JDK Tools
 
