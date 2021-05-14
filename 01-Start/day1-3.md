@@ -10,6 +10,9 @@
 2. Day3 자바 컴파일, 패키지 컴파일 및 명령라인 사용 로그
    - [./day1_3/day3-cmd-1_3교시로그.txt](./day1_3/day3-cmd-1_3교시로그.txt)
 
+3. Java 소스 컴파일후 런타임 그림
+   - [java_jvm_run.png](./day1_3/java_jvm_run.png)
+
 ## Day2
 
 ### 1. 컴퓨터 구조
