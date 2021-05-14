@@ -1,0 +1,1760 @@
+
+C:\Users\KOSMO>javac HelloJava.java
+
+C:\Users\KOSMO>java HelloJava
+Error: Main method not found in class HelloJava, please define the main method as:
+   public static void main(String[] args)
+or a JavaFX application class must extend javafx.application.Application
+
+C:\Users\KOSMO>javac HelloJava.java
+
+C:\Users\KOSMO>java HelloJava
+
+C:\Users\KOSMO>java HelloJava
+
+C:\Users\KOSMO>javac HelloJava.java
+
+C:\Users\KOSMO>dir H*
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO 디렉터리
+
+2021-05-14  오전 10:51               459 HelloJava.class
+2021-05-14  오전 10:51               198 HelloJava.java
+               2개 파일                 657 바이트
+               0개 디렉터리  176,905,084,928 바이트 남음
+
+C:\Users\KOSMO>java HelloJava
+Error: Could not find or load main class HelloJava
+Caused by: java.lang.NoClassDefFoundError: hello/HelloJava (wrong name: HelloJava)
+
+C:\Users\KOSMO>java Hello2Java
+Error: Could not find or load main class Hello2Java
+Caused by: java.lang.ClassNotFoundException: Hello2Java
+
+C:\Users\KOSMO>
+C:\Users\KOSMO>java HelloJava
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>java -d . HelloJava
+. not found
+
+C:\Users\KOSMO>javac -d . HelloJava.java
+
+C:\Users\KOSMO>java -cp . hello.HelloJava
+Hello, java
+안녕, java
+
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>cd
+C:\Users\KOSMO
+
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>cd
+C:\Users\KOSMO
+
+C:\Users\KOSMO>
+C:\Users\KOSMO>cd "My Documents"
+
+C:\Users\KOSMO\My Documents>dir *.class
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\My Documents 디렉터리
+
+파일을 찾을 수 없습니다.
+
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>java MyNmae
+Error: Could not find or load main class MyNmae
+Caused by: java.lang.ClassNotFoundException: MyNmae
+
+C:\Users\KOSMO\My Documents>java MyName
+Error: Could not find or load main class MyName
+Caused by: java.lang.ClassNotFoundException: MyName
+
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>dir .
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\My Documents 디렉터리
+
+파일을 찾을 수 없습니다.
+
+C:\Users\KOSMO\My Documents>dir ..
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO 디렉터리
+
+2021-05-14  오전 11:09    <DIR>          .
+2021-05-14  오전 11:09    <DIR>          ..
+2021-05-11  오후 04:33    <DIR>          3D Objects
+2021-05-11  오후 09:38    <DIR>          ansel
+2021-05-11  오후 04:33    <DIR>          Contacts
+2021-05-12  오전 09:20    <DIR>          Desktop
+2021-05-11  오후 05:40    <DIR>          Documents
+2021-05-14  오전 10:55    <DIR>          Downloads
+2021-05-11  오후 04:33    <DIR>          Favorites
+2021-05-13  오후 05:26               514 FirstJava.class
+2021-05-13  오후 05:25               312 FirstJava.java
+2021-05-14  오전 10:59    <DIR>          hello
+2021-05-14  오전 10:51               459 HelloJava.class
+2021-05-14  오전 10:51               198 HelloJava.java
+2021-05-14  오전 11:09    <DIR>          kosmo
+2021-05-11  오후 04:33    <DIR>          Links
+2021-05-11  오후 04:33    <DIR>          Music
+2021-05-14  오전 11:08               162 MyName.java
+2021-05-11  오후 05:32    <DIR>          OneDrive
+2021-05-11  오후 04:34    <DIR>          Pictures
+2021-05-11  오후 04:33    <DIR>          Saved Games
+2021-05-11  오후 04:34    <DIR>          Searches
+2021-05-11  오후 04:33    <DIR>          Videos
+               5개 파일               1,645 바이트
+              18개 디렉터리  176,904,249,344 바이트 남음
+
+C:\Users\KOSMO\My Documents>dir ..
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO 디렉터리
+
+2021-05-14  오전 11:09    <DIR>          .
+2021-05-14  오전 11:09    <DIR>          ..
+2021-05-11  오후 04:33    <DIR>          3D Objects
+2021-05-11  오후 09:38    <DIR>          ansel
+2021-05-11  오후 04:33    <DIR>          Contacts
+2021-05-12  오전 09:20    <DIR>          Desktop
+2021-05-11  오후 05:40    <DIR>          Documents
+2021-05-14  오전 10:55    <DIR>          Downloads
+2021-05-11  오후 04:33    <DIR>          Favorites
+2021-05-13  오후 05:26               514 FirstJava.class
+2021-05-13  오후 05:25               312 FirstJava.java
+2021-05-14  오전 10:59    <DIR>          hello
+2021-05-14  오전 10:51               459 HelloJava.class
+2021-05-14  오전 10:51               198 HelloJava.java
+2021-05-14  오전 11:09    <DIR>          kosmo
+2021-05-11  오후 04:33    <DIR>          Links
+2021-05-11  오후 04:33    <DIR>          Music
+2021-05-14  오전 11:08               162 MyName.java
+2021-05-11  오후 05:32    <DIR>          OneDrive
+2021-05-11  오후 04:34    <DIR>          Pictures
+2021-05-11  오후 04:33    <DIR>          Saved Games
+2021-05-11  오후 04:34    <DIR>          Searches
+2021-05-11  오후 04:33    <DIR>          Videos
+               5개 파일               1,645 바이트
+              18개 디렉터리  176,904,249,344 바이트 남음
+
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>java -cp ..\ kosmo.MyName
+내 이름은 Kosmo 입니다.
+
+C:\Users\KOSMO\My Documents>java -cp C:\Users\KOSMO kosmo.MyName
+내 이름은 Kosmo 입니다.
+
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\My Documents 디렉터리
+
+파일을 찾을 수 없습니다.
+
+C:\Users\KOSMO\My Documents>cd
+C:\Users\KOSMO\My Documents
+
+C:\Users\KOSMO\My Documents>.
+'.'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+C:\Users\KOSMO\My Documents>dir .
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\My Documents 디렉터리
+
+파일을 찾을 수 없습니다.
+
+C:\Users\KOSMO\My Documents>dir ..
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO 디렉터리
+
+2021-05-14  오전 11:09    <DIR>          .
+2021-05-14  오전 11:09    <DIR>          ..
+2021-05-11  오후 04:33    <DIR>          3D Objects
+2021-05-11  오후 09:38    <DIR>          ansel
+2021-05-11  오후 04:33    <DIR>          Contacts
+2021-05-12  오전 09:20    <DIR>          Desktop
+2021-05-11  오후 05:40    <DIR>          Documents
+2021-05-14  오전 10:55    <DIR>          Downloads
+2021-05-11  오후 04:33    <DIR>          Favorites
+2021-05-13  오후 05:26               514 FirstJava.class
+2021-05-13  오후 05:25               312 FirstJava.java
+2021-05-14  오전 10:59    <DIR>          hello
+2021-05-14  오전 10:51               459 HelloJava.class
+2021-05-14  오전 10:51               198 HelloJava.java
+2021-05-14  오전 11:09    <DIR>          kosmo
+2021-05-11  오후 04:33    <DIR>          Links
+2021-05-11  오후 04:33    <DIR>          Music
+2021-05-14  오전 11:08               162 MyName.java
+2021-05-11  오후 05:32    <DIR>          OneDrive
+2021-05-11  오후 04:34    <DIR>          Pictures
+2021-05-11  오후 04:33    <DIR>          Saved Games
+2021-05-11  오후 04:34    <DIR>          Searches
+2021-05-11  오후 04:33    <DIR>          Videos
+               5개 파일               1,645 바이트
+              18개 디렉터리  176,906,817,536 바이트 남음
+
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\My Documents 디렉터리
+
+파일을 찾을 수 없습니다.
+
+C:\Users\KOSMO\My Documents>dir c:
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\My Documents 디렉터리
+
+파일을 찾을 수 없습니다.
+
+C:\Users\KOSMO\My Documents>dir c:\
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ c:\ 디렉터리
+
+2019-12-07  오후 06:14    <DIR>          PerfLogs
+2021-05-14  오전 10:40    <DIR>          Program Files
+2021-05-13  오전 10:21    <DIR>          Program Files (x86)
+2021-05-11  오후 05:54    <DIR>          Temp
+2021-05-11  오후 04:45    <DIR>          Users
+2021-05-12  오후 09:27    <DIR>          Windows
+               0개 파일                   0 바이트
+               6개 디렉터리  176,906,817,536 바이트 남음
+
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>dir /
+스위치가 틀립니다 - "".
+
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>dir \
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\ 디렉터리
+
+2019-12-07  오후 06:14    <DIR>          PerfLogs
+2021-05-14  오전 10:40    <DIR>          Program Files
+2021-05-13  오전 10:21    <DIR>          Program Files (x86)
+2021-05-11  오후 05:54    <DIR>          Temp
+2021-05-11  오후 04:45    <DIR>          Users
+2021-05-12  오후 09:27    <DIR>          Windows
+               0개 파일                   0 바이트
+               6개 디렉터리  176,906,690,560 바이트 남음
+
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>dir c:\
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ c:\ 디렉터리
+
+2019-12-07  오후 06:14    <DIR>          PerfLogs
+2021-05-14  오전 10:40    <DIR>          Program Files
+2021-05-13  오전 10:21    <DIR>          Program Files (x86)
+2021-05-11  오후 05:54    <DIR>          Temp
+2021-05-11  오후 04:45    <DIR>          Users
+2021-05-12  오후 09:27    <DIR>          Windows
+               0개 파일                   0 바이트
+               6개 디렉터리  176,906,686,464 바이트 남음
+
+C:\Users\KOSMO\My Documents>dir \
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\ 디렉터리
+
+2019-12-07  오후 06:14    <DIR>          PerfLogs
+2021-05-14  오전 10:40    <DIR>          Program Files
+2021-05-13  오전 10:21    <DIR>          Program Files (x86)
+2021-05-11  오후 05:54    <DIR>          Temp
+2021-05-11  오후 04:45    <DIR>          Users
+2021-05-12  오후 09:27    <DIR>          Windows
+               0개 파일                   0 바이트
+               6개 디렉터리  176,906,686,464 바이트 남음
+
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>md
+명령 구문이 올바르지 않습니다.
+
+C:\Users\KOSMO\My Documents>md
+명령 구문이 올바르지 않습니다.
+
+C:\Users\KOSMO\My Documents>md
+명령 구문이 올바르지 않습니다.
+
+C:\Users\KOSMO\My Documents>md
+명령 구문이 올바르지 않습니다.
+
+C:\Users\KOSMO\My Documents>md
+명령 구문이 올바르지 않습니다.
+
+C:\Users\KOSMO\My Documents>md -h
+
+C:\Users\KOSMO\My Documents>md /h
+명령 구문이 올바르지 않습니다.
+
+C:\Users\KOSMO\My Documents>md /?
+디렉터리를 만듭니다.
+
+MKDIR [드라이브:]경로
+MD [드라이브:]경로
+
+명령 확장을 사용하면 MKDIR은 아래와 같이 바뀝니다.
+
+필요한 경우 MKDIR은 경로 상에 중간 디렉터리를 만듭니다.
+예를 들어, \a가 없다고 가정하면
+
+    mkdir \a\b\c\d
+
+는 확장을 사용하지 않는 경우의
+
+    mkdir \a
+    chdir \a
+    mkdir b
+    chdir b
+    mkdir c
+    chdir c
+    mkdir d
+
+와 같습니다.
+
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>md Test
+
+C:\Users\KOSMO\My Documents>md Sample\A\B\C
+
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>cd test
+
+C:\Users\KOSMO\My Documents\test>
+C:\Users\KOSMO\My Documents\test>cd ..
+
+C:\Users\KOSMO\My Documents>cd sample
+
+C:\Users\KOSMO\My Documents\sample>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\My Documents\sample 디렉터리
+
+2021-05-14  오전 11:48    <DIR>          .
+2021-05-14  오전 11:48    <DIR>          ..
+2021-05-14  오전 11:48    <DIR>          A
+               0개 파일                   0 바이트
+               3개 디렉터리  176,906,285,056 바이트 남음
+
+C:\Users\KOSMO\My Documents\sample>dir /?
+디렉터리에 있는 파일과 하위 디렉터리 목록을 보여 줍니다.
+
+DIR [drive:][path][filename] [/A[[:]attributes]] [/B] [/C] [/D] [/L] [/N]
+  [/O[[:]sortorder]] [/P] [/Q] [/R] [/S] [/T[[:]timefield]] [/W] [/X] [/4]
+
+  [drive:][path][filename]
+              목록에 추가할 드라이브, 디렉터리 및/또는 파일을 지정합니다.
+
+  /A          지정된 특성을 가진 파일을 보여 줍니다.
+  attributes   D  디렉터리                R  읽기 전용 파일
+               H  숨김 파일               A  보관할 파일
+               S  시스템 파일               I  콘텐츠가 인덱싱되지 않은 파일
+               L  재분석 지점             O  오프라인 파일
+               -  부정을 뜻하는 접두사
+  /B          최소 포맷을 사용합니다(머리말 정보나 요약 없음)
+  /C          파일 크기에 천 단위 구분 기호를 보여 줍니다.  이것은 기본값
+              입니다. 구분 기호를 표시하지 않으려면 /-C를 사용하십시오.
+  /D          가로 목록과 동일하지만 파일 목록을 세로로 정렬하여 보여 줍니다.
+  /L          소문자를 사용합니다.
+  /N          파일 이름이 제일 오른쪽에 오도록 새로운 긴 목록 포맷을 사용합니 다.
+  /O          파일을 정렬된 순서로 보여 줍니다.
+  sortorder    N  이름순(알파벳순)       S  크기순(가장 작은 항목부터)
+               E  확장명순(알파벳순)  D  날짜/시간순(가장 오래된 항복부터)
+               G  그룹 디렉터리 먼저    -  순서를 반대로 하는 접두사
+  /P          정보가 한 화면에 꽉 차면 잠깐 멈춥니다.
+  /Q          파일 소유자를 보여 줍니다.
+  /R          파일의 대체 데이터 스트림을 표시합니다.
+  /S          지정한 디렉터리와 하위 디렉터리를 포함하여 보여 줍니다.
+  /T          정렬에 사용할 시간 필드를 지정합니다
+  timefield   C  작성한 시간
+              A  마지막 액세스한 시간
+              W  마지막 기록한 시간
+  /W          가로 목록 형식을 사용합니다.
+  /X          8dot3 파일 이름이 아닌 파일에 대한 짧은 이름을 보여 줍니다
+              이 형식은 긴 이름 앞에 짧은 이름이 추가된 것으로 /N 포맷과
+              같습니다. 짧은 이름이 없으면
+              공백을 보여 줍니다.
+  /4          4자릿수 연도를 표시합니다.
+
+스위치를 DIRCMD 환경 변수로 미리 설정할 수 있습니다. 하이픈(-)을
+스위치 앞에 접두사로 붙이면 미리 설정된 스위치를 재정의합니다(예, /-W).
+
+C:\Users\KOSMO\My Documents\sample>
+C:\Users\KOSMO\My Documents\sample>dir /s .
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\My Documents\sample 디렉터리
+
+2021-05-14  오전 11:48    <DIR>          .
+2021-05-14  오전 11:48    <DIR>          ..
+2021-05-14  오전 11:48    <DIR>          A
+               0개 파일                   0 바이트
+
+ C:\Users\KOSMO\My Documents\sample\A 디렉터리
+
+2021-05-14  오전 11:48    <DIR>          .
+2021-05-14  오전 11:48    <DIR>          ..
+2021-05-14  오전 11:48    <DIR>          B
+               0개 파일                   0 바이트
+
+ C:\Users\KOSMO\My Documents\sample\A\B 디렉터리
+
+2021-05-14  오전 11:48    <DIR>          .
+2021-05-14  오전 11:48    <DIR>          ..
+2021-05-14  오전 11:48    <DIR>          C
+               0개 파일                   0 바이트
+
+ C:\Users\KOSMO\My Documents\sample\A\B\C 디렉터리
+
+2021-05-14  오전 11:48    <DIR>          .
+2021-05-14  오전 11:48    <DIR>          ..
+               0개 파일                   0 바이트
+
+     전체 파일:
+               0개 파일                   0 바이트
+              11개 디렉터리  176,906,219,520 바이트 남음
+
+C:\Users\KOSMO\My Documents\sample>
+C:\Users\KOSMO\My Documents\sample>
+C:\Users\KOSMO\My Documents\sample>
+C:\Users\KOSMO\My Documents\sample>
+C:\Users\KOSMO\My Documents\sample>
+C:\Users\KOSMO\My Documents\sample>cd A\B\C
+
+C:\Users\KOSMO\My Documents\sample\A\B\C>
+C:\Users\KOSMO\My Documents\sample\A\B\C>cd ..\..\..\
+
+C:\Users\KOSMO\My Documents\sample>cd ..\..\..\..\
+
+C:\>
+C:\>cd C:\Users\KOSMO\My Documents\sample
+
+C:\Users\KOSMO\My Documents\sample>cd A\B\C
+
+C:\Users\KOSMO\My Documents\sample\A\B\C>cd ..\..\..\
+
+C:\Users\KOSMO\My Documents\sample>cd ..
+
+C:\Users\KOSMO\My Documents>cd "\Users\KOSMO\My Documents"
+
+C:\Users\KOSMO\My Documents>cd "\Users\KOSMO\My Documents\sample\a\b\c"
+
+C:\Users\KOSMO\My Documents\sample\A\B\C>cd C:\Users\KOSMO\My Documents\
+
+C:\Users\KOSMO\My Documents\sample\A\B\C>cd ..\..\..\..\
+
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\My Documents 디렉터리
+
+파일을 찾을 수 없습니다.
+
+C:\Users\KOSMO\My Documents>dir *
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\My Documents 디렉터리
+
+파일을 찾을 수 없습니다.
+
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>
+C:\Users\KOSMO\My Documents>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\My Documents 디렉터리
+
+파일을 찾을 수 없습니다.
+
+C:\Users\KOSMO\My Documents>dir /a
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\My Documents 디렉터리
+
+파일을 찾을 수 없습니다.
+
+C:\Users\KOSMO\My Documents>dir 8
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\My Documents 디렉터리
+
+파일을 찾을 수 없습니다.
+
+C:\Users\KOSMO\My Documents>dir *
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\My Documents 디렉터리
+
+파일을 찾을 수 없습니다.
+
+C:\Users\KOSMO\My Documents>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\My Documents 디렉터리
+
+파일을 찾을 수 없습니다.
+
+C:\Users\KOSMO\My Documents>cd ..
+
+C:\Users\KOSMO>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO 디렉터리
+
+2021-05-14  오전 11:09    <DIR>          .
+2021-05-14  오전 11:09    <DIR>          ..
+2021-05-11  오후 04:33    <DIR>          3D Objects
+2021-05-11  오후 09:38    <DIR>          ansel
+2021-05-11  오후 04:33    <DIR>          Contacts
+2021-05-12  오전 09:20    <DIR>          Desktop
+2021-05-14  오전 11:49    <DIR>          Documents
+2021-05-14  오전 10:55    <DIR>          Downloads
+2021-05-11  오후 04:33    <DIR>          Favorites
+2021-05-13  오후 05:26               514 FirstJava.class
+2021-05-13  오후 05:25               312 FirstJava.java
+2021-05-14  오전 10:59    <DIR>          hello
+2021-05-14  오전 10:51               459 HelloJava.class
+2021-05-14  오전 10:51               198 HelloJava.java
+2021-05-14  오전 11:09    <DIR>          kosmo
+2021-05-11  오후 04:33    <DIR>          Links
+2021-05-11  오후 04:33    <DIR>          Music
+2021-05-14  오전 11:08               162 MyName.java
+2021-05-11  오후 05:32    <DIR>          OneDrive
+2021-05-11  오후 04:34    <DIR>          Pictures
+2021-05-11  오후 04:33    <DIR>          Saved Games
+2021-05-11  오후 04:34    <DIR>          Searches
+2021-05-11  오후 04:33    <DIR>          Videos
+               5개 파일               1,645 바이트
+              18개 디렉터리  176,905,547,776 바이트 남음
+
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>dir Documents
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\Documents 디렉터리
+
+2021-05-14  오전 11:49    <DIR>          .
+2021-05-14  오전 11:49    <DIR>          ..
+2021-05-14  오전 11:48    <DIR>          Sample
+2021-05-14  오전 11:48    <DIR>          Test
+2017-10-24  오후 07:13            26,257 Welcome to Cell.cell
+2017-10-24  오후 07:20            23,552 Welcome to Hwp.hwp
+2019-02-20  오후 05:38           219,962 Welcome to Show.show
+2019-02-20  오후 05:31            15,185 Welcome to Word.hwdt
+               4개 파일             284,956 바이트
+               4개 디렉터리  176,905,416,704 바이트 남음
+
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>cd Documents
+
+C:\Users\KOSMO\Documents>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\Documents 디렉터리
+
+2021-05-14  오전 11:49    <DIR>          .
+2021-05-14  오전 11:49    <DIR>          ..
+2021-05-14  오전 11:48    <DIR>          Sample
+2021-05-14  오전 11:48    <DIR>          Test
+2017-10-24  오후 07:13            26,257 Welcome to Cell.cell
+2017-10-24  오후 07:20            23,552 Welcome to Hwp.hwp
+2019-02-20  오후 05:38           219,962 Welcome to Show.show
+2019-02-20  오후 05:31            15,185 Welcome to Word.hwdt
+               4개 파일             284,956 바이트
+               4개 디렉터리  176,905,416,704 바이트 남음
+
+C:\Users\KOSMO\Documents>
+C:\Users\KOSMO\Documents>del
+명령 구문이 올바르지 않습니다.
+
+C:\Users\KOSMO\Documents>del /?
+하나 이상의 파일을 삭제합니다.
+
+DEL [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names
+ERASE [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names
+
+  names         하나 이상의 파일 또는 디렉터리를 지정합니다.
+                와일드카드를 사용하면 여러 개의 파일을 삭제할 수 있습니다.
+                디렉터리를 지정한 경우 해당 디렉터리 내의 모든 파일을
+                삭제할 수 있습니다.
+
+  /P            각 파일을 삭제하기 전에 삭제를 확인하는 메시지를 표시합니다.
+  /F            읽기 전용 파일을 강제 삭제합니다.
+  /S            지정된 파일을 모든 하위 디렉터리에서 삭제합니다.
+  /Q            자동 모드에서는 글로벌 와일드카드에서 삭제할 것인지 묻지 않습 니다.
+  /A            특성을 기준으로 삭제할 파일을 지정합니다.
+  attributes    R  읽기 전용 파일            S  시스템 파일
+                H  숨김 파일               A  보관할 파일
+                I  콘텐츠가 인덱싱되지 않은 파일  L  재분석 지점
+                O  오프라인 파일              -  부정을 뜻하는 접두사
+
+명령 확장을 사용하면 DEL과 ERASE는 아래와 같이 바뀝니다.
+
+/S 스위치의 의미가 바뀌어, 찾지 못하는 파일이 아니라
+지워진 파일을 보여줍니다.
+
+C:\Users\KOSMO\Documents>
+C:\Users\KOSMO\Documents>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\Documents 디렉터리
+
+2021-05-14  오전 11:49    <DIR>          .
+2021-05-14  오전 11:49    <DIR>          ..
+2021-05-14  오전 11:48    <DIR>          Sample
+2021-05-14  오전 11:48    <DIR>          Test
+2017-10-24  오후 07:13            26,257 Welcome to Cell.cell
+2017-10-24  오후 07:20            23,552 Welcome to Hwp.hwp
+2019-02-20  오후 05:38           219,962 Welcome to Show.show
+2019-02-20  오후 05:31            15,185 Welcome to Word.hwdt
+               4개 파일             284,956 바이트
+               4개 디렉터리  176,905,211,904 바이트 남음
+
+C:\Users\KOSMO\Documents>del test
+C:\Users\KOSMO\Documents\test\*, 계속하시겠습니까(Y/N)? y
+
+C:\Users\KOSMO\Documents>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\Documents 디렉터리
+
+2021-05-14  오전 11:49    <DIR>          .
+2021-05-14  오전 11:49    <DIR>          ..
+2021-05-14  오전 11:48    <DIR>          Sample
+2021-05-14  오전 11:48    <DIR>          Test
+2017-10-24  오후 07:13            26,257 Welcome to Cell.cell
+2017-10-24  오후 07:20            23,552 Welcome to Hwp.hwp
+2019-02-20  오후 05:38           219,962 Welcome to Show.show
+2019-02-20  오후 05:31            15,185 Welcome to Word.hwdt
+               4개 파일             284,956 바이트
+               4개 디렉터리  176,905,207,808 바이트 남음
+
+C:\Users\KOSMO\Documents>del test
+C:\Users\KOSMO\Documents\test\*, 계속하시겠습니까(Y/N)? y
+
+C:\Users\KOSMO\Documents>
+C:\Users\KOSMO\Documents>del /?
+하나 이상의 파일을 삭제합니다.
+
+DEL [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names
+ERASE [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names
+
+  names         하나 이상의 파일 또는 디렉터리를 지정합니다.
+                와일드카드를 사용하면 여러 개의 파일을 삭제할 수 있습니다.
+                디렉터리를 지정한 경우 해당 디렉터리 내의 모든 파일을
+                삭제할 수 있습니다.
+
+  /P            각 파일을 삭제하기 전에 삭제를 확인하는 메시지를 표시합니다.
+  /F            읽기 전용 파일을 강제 삭제합니다.
+  /S            지정된 파일을 모든 하위 디렉터리에서 삭제합니다.
+  /Q            자동 모드에서는 글로벌 와일드카드에서 삭제할 것인지 묻지 않습 니다.
+  /A            특성을 기준으로 삭제할 파일을 지정합니다.
+  attributes    R  읽기 전용 파일            S  시스템 파일
+                H  숨김 파일               A  보관할 파일
+                I  콘텐츠가 인덱싱되지 않은 파일  L  재분석 지점
+                O  오프라인 파일              -  부정을 뜻하는 접두사
+
+명령 확장을 사용하면 DEL과 ERASE는 아래와 같이 바뀝니다.
+
+/S 스위치의 의미가 바뀌어, 찾지 못하는 파일이 아니라
+지워진 파일을 보여줍니다.
+
+C:\Users\KOSMO\Documents>help
+특정 명령어에 대한 자세한 내용이 필요하면 HELP 명령어 이름을 입력하십시오.
+ASSOC    파일 확장명 연결을 보여주거나 수정합니다.
+ATTRIB   파일 속성을 표시하거나 바꿉니다.
+BREAK    확장된 CTRL+C 검사를 설정하거나 지웁니다.
+BCDEDIT        부팅 로딩을 제어하기 위해 부팅 데이터베이스에서 속성을 설정합니다.
+CACLS    파일의 액세스 컨트롤 목록(ACL)을 표시하거나 수정합니다.
+CALL     한 일괄 프로그램에서 다른 일괄 프로그램을 호출합니다.
+CD       현재 디렉터리 이름을 보여주거나 바꿉니다.
+CHCP     활성화된 코드 페이지의 번호를 표시하거나 설정합니다.
+CHDIR    현재 디렉터리 이름을 보여주거나 바꿉니다.
+CHKDSK   디스크를 검사하고 상태 보고서를 표시합니다.
+CHKNTFS  부팅하는 동안 디스크 확인을 화면에 표시하거나 변경합니다.
+CLS      화면을 지웁니다.
+CMD      Windows 명령 인터프리터의 새 인스턴스를 시작합니다.
+COLOR    콘솔의 기본색과 배경색을 설정합니다.
+COMP     두 개 또는 여러 개의 파일을 비교합니다.
+COMPACT  NTFS 분할 영역에 있는 파일의 압축을 표시하거나 변경합니다.
+CONVERT  FAT 볼륨을 NTFS로 변환합니다. 현재 드라이브는
+         변환할 수 없습니다.
+COPY     하나 이상의 파일을 다른 위치로 복사합니다.
+DATE     날짜를 보여주거나 설정합니다.
+DEL      하나 이상의 파일을 지웁니다.
+DIR      디렉터리에 있는 파일과 하위 디렉터리 목록을 보여줍니다.
+DISKPART       디스크 파티션 속성을 표시하거나 구성합니다.
+DOSKEY       명령줄을 편집하고, Windows 명령을 다시 호출하고,
+               매크로를 만듭니다.
+DRIVERQUERY    현재 장치 드라이버 상태와 속성을 표시합니다.
+ECHO           메시지를 표시하거나 ECHO를 켜거나 끕니다.
+ENDLOCAL       배치 파일에서 환경 변경의 지역화를 끝냅니다.
+ERASE          하나 이상의 파일을 지웁니다.
+EXIT           CMD.EXE 프로그램(명령 인터프리터)을 종료합니다.
+FC             두 파일 또는 파일 집합을 비교하여 다른 점을
+         표시합니다.
+FIND           파일에서 텍스트 문자열을 검색합니다.
+FINDSTR        파일에서 문자열을 검색합니다.
+FOR            파일 집합의 각 파일에 대해 지정된 명령을 실행합니다.
+FORMAT         Windows에서 사용할 디스크를 포맷합니다.
+FSUTIL         파일 시스템 속성을 표시하거나 구성합니다.
+FTYPE          파일 확장명 연결에 사용되는 파일 형식을 표시하거나
+               수정합니다.
+GOTO           Windows 명령 인터프리터가 일괄 프로그램에서
+               이름표가 붙여진 줄로 이동합니다.
+GPRESULT       컴퓨터 또는 사용자에 대한 그룹 정책 정보를 표시합니다.
+GRAFTABL       Windows가 그래픽 모드에서 확장 문자 세트를 표시할
+         수 있게 합니다.
+HELP           Windows 명령에 대한 도움말 정보를 제공합니다.
+ICACLS         파일과 디렉터리에 대한 ACL을 표시, 수정, 백업 또는
+               복원합니다.
+IF             일괄 프로그램에서 조건 처리를 수행합니다.
+LABEL          디스크의 볼륨 이름을 만들거나, 바꾸거나, 지웁니다.
+MD             디렉터리를 만듭니다.
+MKDIR          디렉터리를 만듭니다.
+MKLINK         바로 가기 링크와 하드 링크를 만듭니다.
+MODE           시스템 장치를 구성합니다.
+MORE           출력을 한번에 한 화면씩 표시합니다.
+MOVE           하나 이상의 파일을 한 디렉터리에서 다른 디렉터리로
+               이동합니다.
+OPENFILES      파일 공유에서 원격 사용자에 의해 열린 파일을 표시합니다.
+PATH           실행 파일의 찾기 경로를 표시하거나 설정합니다.
+PAUSE          배치 파일의 처리를 일시 중단하고 메시지를 표시합니다.
+POPD           PUSHD에 의해 저장된 현재 디렉터리의 이전 값을
+               복원합니다.
+PRINT          텍스트 파일을 인쇄합니다.
+PROMPT         Windows 명령 프롬프트를 변경합니다.
+PUSHD          현재 디렉터리를 저장한 다음 변경합니다.
+RD             디렉터리를 제거합니다.
+RECOVER        불량이거나 결함이 있는 디스크에서 읽을 수 있는 정보를 복구합니 다.
+REM            배치 파일 또는 CONFIG.SYS에 주석을 기록합니다.
+REN            파일 이름을 바꿉니다.
+RENAME         파일 이름을 바꿉니다.
+REPLACE        파일을 바꿉니다.
+RMDIR          디렉터리를 제거합니다.
+ROBOCOPY       파일과 디렉터리 트리를 복사할 수 있는 고급 유틸리티입니다.
+SET            Windows 환경 변수를 표시, 설정 또는 제거합니다.
+SETLOCAL       배치 파일에서 환경 변경의 지역화를 시작합니다.
+SC             서비스(백그라운드 프로세스)를 표시하거나 구성합니다.
+SCHTASKS       컴퓨터에서 실행할 명령과 프로그램을 예약합니다.
+SHIFT          배치 파일에서 바꿀 수 있는 매개 변수의 위치를 바꿉니다.
+SHUTDOWN       컴퓨터의 로컬 또는 원격 종료를 허용합니다.
+SORT           입력을 정렬합니다.
+START          지정한 프로그램이나 명령을 실행할 별도의 창을 시작합니다.
+SUBST          경로를 드라이브 문자에 연결합니다.
+SYSTEMINFO     컴퓨터별 속성과 구성을 표시합니다.
+TASKLIST       서비스를 포함하여 현재 실행 중인 모든 작업을 표시합니다.
+TASKKILL       실행 중인 프로세스나 응용 프로그램을 중단합니다.
+TIME           시스템 시간을 표시하거나 설정합니다.
+TITLE          CMD.EXE 세션에 대한 창 제목을 설정합니다.
+TREE           드라이브 또는 경로의 디렉터리 구조를 그래픽으로
+               표시합니다.
+TYPE           텍스트 파일의 내용을 표시합니다.
+VER            Windows 버전을 표시합니다.
+VERIFY         파일이 디스크에 올바로 기록되었는지 검증할지
+         여부를 지정합니다.
+VOL            디스크 볼륨 레이블과 일련 번호를 표시합니다.
+XCOPY          파일과 디렉터리 트리를 복사합니다.
+WMIC           대화형 명령 셸 내의 WMI 정보를 표시합니다.
+
+도구에 대한 자세한 내용은 온라인 도움말의 명령줄 참조를 참조하십시오.
+
+C:\Users\KOSMO\Documents>
+C:\Users\KOSMO\Documents>
+C:\Users\KOSMO\Documents>
+C:\Users\KOSMO\Documents>
+C:\Users\KOSMO\Documents>help
+특정 명령어에 대한 자세한 내용이 필요하면 HELP 명령어 이름을 입력하십시오.
+ASSOC    파일 확장명 연결을 보여주거나 수정합니다.
+ATTRIB   파일 속성을 표시하거나 바꿉니다.
+BREAK    확장된 CTRL+C 검사를 설정하거나 지웁니다.
+BCDEDIT        부팅 로딩을 제어하기 위해 부팅 데이터베이스에서 속성을 설정합니다.
+CACLS    파일의 액세스 컨트롤 목록(ACL)을 표시하거나 수정합니다.
+CALL     한 일괄 프로그램에서 다른 일괄 프로그램을 호출합니다.
+CD       현재 디렉터리 이름을 보여주거나 바꿉니다.
+CHCP     활성화된 코드 페이지의 번호를 표시하거나 설정합니다.
+CHDIR    현재 디렉터리 이름을 보여주거나 바꿉니다.
+CHKDSK   디스크를 검사하고 상태 보고서를 표시합니다.
+CHKNTFS  부팅하는 동안 디스크 확인을 화면에 표시하거나 변경합니다.
+CLS      화면을 지웁니다.
+CMD      Windows 명령 인터프리터의 새 인스턴스를 시작합니다.
+COLOR    콘솔의 기본색과 배경색을 설정합니다.
+COMP     두 개 또는 여러 개의 파일을 비교합니다.
+COMPACT  NTFS 분할 영역에 있는 파일의 압축을 표시하거나 변경합니다.
+CONVERT  FAT 볼륨을 NTFS로 변환합니다. 현재 드라이브는
+         변환할 수 없습니다.
+COPY     하나 이상의 파일을 다른 위치로 복사합니다.
+DATE     날짜를 보여주거나 설정합니다.
+DEL      하나 이상의 파일을 지웁니다.
+DIR      디렉터리에 있는 파일과 하위 디렉터리 목록을 보여줍니다.
+DISKPART       디스크 파티션 속성을 표시하거나 구성합니다.
+DOSKEY       명령줄을 편집하고, Windows 명령을 다시 호출하고,
+               매크로를 만듭니다.
+DRIVERQUERY    현재 장치 드라이버 상태와 속성을 표시합니다.
+ECHO           메시지를 표시하거나 ECHO를 켜거나 끕니다.
+ENDLOCAL       배치 파일에서 환경 변경의 지역화를 끝냅니다.
+ERASE          하나 이상의 파일을 지웁니다.
+EXIT           CMD.EXE 프로그램(명령 인터프리터)을 종료합니다.
+FC             두 파일 또는 파일 집합을 비교하여 다른 점을
+         표시합니다.
+FIND           파일에서 텍스트 문자열을 검색합니다.
+FINDSTR        파일에서 문자열을 검색합니다.
+FOR            파일 집합의 각 파일에 대해 지정된 명령을 실행합니다.
+FORMAT         Windows에서 사용할 디스크를 포맷합니다.
+FSUTIL         파일 시스템 속성을 표시하거나 구성합니다.
+FTYPE          파일 확장명 연결에 사용되는 파일 형식을 표시하거나
+               수정합니다.
+GOTO           Windows 명령 인터프리터가 일괄 프로그램에서
+               이름표가 붙여진 줄로 이동합니다.
+GPRESULT       컴퓨터 또는 사용자에 대한 그룹 정책 정보를 표시합니다.
+GRAFTABL       Windows가 그래픽 모드에서 확장 문자 세트를 표시할
+         수 있게 합니다.
+HELP           Windows 명령에 대한 도움말 정보를 제공합니다.
+ICACLS         파일과 디렉터리에 대한 ACL을 표시, 수정, 백업 또는
+               복원합니다.
+IF             일괄 프로그램에서 조건 처리를 수행합니다.
+LABEL          디스크의 볼륨 이름을 만들거나, 바꾸거나, 지웁니다.
+MD             디렉터리를 만듭니다.
+MKDIR          디렉터리를 만듭니다.
+MKLINK         바로 가기 링크와 하드 링크를 만듭니다.
+MODE           시스템 장치를 구성합니다.
+MORE           출력을 한번에 한 화면씩 표시합니다.
+MOVE           하나 이상의 파일을 한 디렉터리에서 다른 디렉터리로
+               이동합니다.
+OPENFILES      파일 공유에서 원격 사용자에 의해 열린 파일을 표시합니다.
+PATH           실행 파일의 찾기 경로를 표시하거나 설정합니다.
+PAUSE          배치 파일의 처리를 일시 중단하고 메시지를 표시합니다.
+POPD           PUSHD에 의해 저장된 현재 디렉터리의 이전 값을
+               복원합니다.
+PRINT          텍스트 파일을 인쇄합니다.
+PROMPT         Windows 명령 프롬프트를 변경합니다.
+PUSHD          현재 디렉터리를 저장한 다음 변경합니다.
+RD             디렉터리를 제거합니다.
+RECOVER        불량이거나 결함이 있는 디스크에서 읽을 수 있는 정보를 복구합니 다.
+REM            배치 파일 또는 CONFIG.SYS에 주석을 기록합니다.
+REN            파일 이름을 바꿉니다.
+RENAME         파일 이름을 바꿉니다.
+REPLACE        파일을 바꿉니다.
+RMDIR          디렉터리를 제거합니다.
+ROBOCOPY       파일과 디렉터리 트리를 복사할 수 있는 고급 유틸리티입니다.
+SET            Windows 환경 변수를 표시, 설정 또는 제거합니다.
+SETLOCAL       배치 파일에서 환경 변경의 지역화를 시작합니다.
+SC             서비스(백그라운드 프로세스)를 표시하거나 구성합니다.
+SCHTASKS       컴퓨터에서 실행할 명령과 프로그램을 예약합니다.
+SHIFT          배치 파일에서 바꿀 수 있는 매개 변수의 위치를 바꿉니다.
+SHUTDOWN       컴퓨터의 로컬 또는 원격 종료를 허용합니다.
+SORT           입력을 정렬합니다.
+START          지정한 프로그램이나 명령을 실행할 별도의 창을 시작합니다.
+SUBST          경로를 드라이브 문자에 연결합니다.
+SYSTEMINFO     컴퓨터별 속성과 구성을 표시합니다.
+TASKLIST       서비스를 포함하여 현재 실행 중인 모든 작업을 표시합니다.
+TASKKILL       실행 중인 프로세스나 응용 프로그램을 중단합니다.
+TIME           시스템 시간을 표시하거나 설정합니다.
+TITLE          CMD.EXE 세션에 대한 창 제목을 설정합니다.
+TREE           드라이브 또는 경로의 디렉터리 구조를 그래픽으로
+               표시합니다.
+TYPE           텍스트 파일의 내용을 표시합니다.
+VER            Windows 버전을 표시합니다.
+VERIFY         파일이 디스크에 올바로 기록되었는지 검증할지
+         여부를 지정합니다.
+VOL            디스크 볼륨 레이블과 일련 번호를 표시합니다.
+XCOPY          파일과 디렉터리 트리를 복사합니다.
+WMIC           대화형 명령 셸 내의 WMI 정보를 표시합니다.
+
+도구에 대한 자세한 내용은 온라인 도움말의 명령줄 참조를 참조하십시오.
+
+C:\Users\KOSMO\Documents>
+C:\Users\KOSMO\Documents>
+C:\Users\KOSMO\Documents>
+C:\Users\KOSMO\Documents>rmdir /?
+디렉터리를 지웁니다.
+
+RMDIR [/S] [/Q] [드라이브:]경로
+RD [/S] [/Q] [드라이브:]경로
+
+    /S      지정된 디렉터리 자체와, 그 안의 모든 디렉터리 및 파일을 지웁니다.
+            디렉터리 트리를 지우는데 사용합니다.
+
+    /Q      조용한 모드로, /S로 디렉터리 트리를 지우는데 문제가 없으면 다시
+            묻지 않습니다.
+
+C:\Users\KOSMO\Documents>
+C:\Users\KOSMO\Documents>
+C:\Users\KOSMO\Documents>rmdir test
+
+C:\Users\KOSMO\Documents>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\Documents 디렉터리
+
+2021-05-14  오후 12:02    <DIR>          .
+2021-05-14  오후 12:02    <DIR>          ..
+2021-05-14  오전 11:48    <DIR>          Sample
+2017-10-24  오후 07:13            26,257 Welcome to Cell.cell
+2017-10-24  오후 07:20            23,552 Welcome to Hwp.hwp
+2019-02-20  오후 05:38           219,962 Welcome to Show.show
+2019-02-20  오후 05:31            15,185 Welcome to Word.hwdt
+               4개 파일             284,956 바이트
+               3개 디렉터리  176,906,829,824 바이트 남음
+
+C:\Users\KOSMO\Documents>
+C:\Users\KOSMO\Documents>
+C:\Users\KOSMO\Documents>rmdir Sample
+디렉터리가 비어 있지 않습니다.
+
+C:\Users\KOSMO\Documents>rmdir /s Sample
+Sample, 계속하시겠습니까(Y/N)? y
+
+C:\Users\KOSMO\Documents>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\Documents 디렉터리
+
+2021-05-14  오후 12:03    <DIR>          .
+2021-05-14  오후 12:03    <DIR>          ..
+2017-10-24  오후 07:13            26,257 Welcome to Cell.cell
+2017-10-24  오후 07:20            23,552 Welcome to Hwp.hwp
+2019-02-20  오후 05:38           219,962 Welcome to Show.show
+2019-02-20  오후 05:31            15,185 Welcome to Word.hwdt
+               4개 파일             284,956 바이트
+               2개 디렉터리  176,906,698,752 바이트 남음
+
+C:\Users\KOSMO\Documents>
+C:\Users\KOSMO\Documents>
+C:\Users\KOSMO\Documents>
+C:\Users\KOSMO\Documents>cd ..
+
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>dir Desktop
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\Desktop 디렉터리
+
+2021-05-12  오전 09:20    <DIR>          .
+2021-05-12  오전 09:20    <DIR>          ..
+2021-05-11  오후 11:45           163,840 0512 QR.hwp
+2021-05-11  오후 11:45            69,929 0512 QR.JPG
+2021-05-11  오후 11:45            70,112 0512 QR.pdf
+2021-05-14  오전 11:32    <DIR>          Fullstack개발자과정
+2021-05-11  오후 05:44             1,931 Zoom.lnk
+2021-05-12  오전 09:20           588,152 ZoomIt64.exe
+               5개 파일             893,964 바이트
+               3개 디렉터리  176,906,690,560 바이트 남음
+
+C:\Users\KOSMO>
+C:\Users\KOSMO>dir Desktop
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\Desktop 디렉터리
+
+2021-05-12  오전 09:20    <DIR>          .
+2021-05-12  오전 09:20    <DIR>          ..
+2021-05-11  오후 11:45           163,840 0512 QR.hwp
+2021-05-11  오후 11:45            69,929 0512 QR.JPG
+2021-05-11  오후 11:45            70,112 0512 QR.pdf
+2021-05-14  오전 11:32    <DIR>          Fullstack개발자과정
+2021-05-11  오후 05:44             1,931 Zoom.lnk
+2021-05-12  오전 09:20           588,152 ZoomIt64.exe
+               5개 파일             893,964 바이트
+               3개 디렉터리  176,906,559,488 바이트 남음
+
+C:\Users\KOSMO>mkdir Desktop\Work
+
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>dir *.java
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO 디렉터리
+
+2021-05-13  오후 05:25               312 FirstJava.java
+2021-05-14  오전 10:51               198 HelloJava.java
+2021-05-14  오전 11:08               162 MyName.java
+               3개 파일                 672 바이트
+               0개 디렉터리  176,905,428,992 바이트 남음
+
+C:\Users\KOSMO>dir /s *.java
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO 디렉터리
+
+2021-05-13  오후 05:25               312 FirstJava.java
+2021-05-14  오전 10:51               198 HelloJava.java
+2021-05-14  오전 11:08               162 MyName.java
+               3개 파일                 672 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter10\interfaceex 디렉터리
+
+2021-05-13  오후 05:31               668 Calc.java
+2021-05-13  오후 05:31               242 Calculator.java
+2021-05-13  오후 05:31               629 CalculatorTest.java
+2021-05-13  오후 05:31               503 CompleteCalc.java
+               4개 파일               2,042 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter10\scheduler 디렉터리
+
+2021-05-13  오후 05:31               285 AgentGetCall.java
+2021-05-13  오후 05:31               405 LeastJob.java
+2021-05-13  오후 05:31               428 PriorityAllocation.java
+2021-05-13  오후 05:31               360 RoundRobin.java
+2021-05-13  오후 05:31               124 Scheduler.java
+2021-05-13  오후 05:31               944 SchedulerTest.java
+               6개 파일               2,546 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter11\classex 디렉터리
+
+2021-05-13  오후 05:31               450 Person.java
+2021-05-13  오후 05:31               694 PersonTest.java
+               2개 파일               1,144 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter11\object 디렉터리
+
+2021-05-13  오후 05:31               792 MyDateTest.java
+2021-05-13  오후 05:31               249 Student.java
+2021-05-13  오후 05:31               188 StudentTest.java
+               3개 파일               1,229 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter12  디렉터리
+
+2021-05-13  오후 05:31             1,140 Member.java
+               1개 파일               1,140 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter12\arraylist 디렉터리
+
+2021-05-13  오후 05:31             1,705 MemberArrayList.java
+2021-05-13  오후 05:31               784 MemberArrayListTest.java
+               2개 파일               2,489 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter12\treeset 디렉터리
+
+2021-05-13  오후 05:31               780 MemberTreeSet.java
+2021-05-13  오후 05:31               643 MemberTreeSetTest.java
+               2개 파일               1,423 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter14  디렉터리
+
+2021-05-13  오후 05:31               154 PasswordException.java
+2021-05-13  오후 05:31             1,409 PasswordTest.java
+2021-05-13  오후 05:31               281 Test.java
+               3개 파일               1,844 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter4 디렉터리
+
+2021-05-13  오후 05:31               179 ForExample1.java
+2021-05-13  오후 05:31               396 IfExample3.java
+2021-05-13  오후 05:31               477 SwitchCase1.java
+               3개 파일               1,052 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter5 디렉터리
+
+2021-05-13  오후 05:31               948 FunctionTest.java
+2021-05-13  오후 05:31               235 Order.java
+2021-05-13  오후 05:31               708 OrderTest.java
+2021-05-13  오후 05:31               110 Person.java
+2021-05-13  오후 05:31               438 PersonTest.java
+2021-05-13  오후 05:31               277 Student.java
+               6개 파일               2,716 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter5\constructor 디렉터리
+
+2021-05-13  오후 05:31               324 Person.java
+2021-05-13  오후 05:31               296 PersonTest.java
+               2개 파일                 620 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter5\test 디렉터리
+
+2021-05-13  오후 05:31               393 StudentTest.java
+               1개 파일                 393 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter6\cooperation 디렉터리
+
+2021-05-13  오후 05:31               663 Bus.java
+2021-05-13  오후 05:31               735 Student.java
+2021-05-13  오후 05:31               677 Subway.java
+2021-05-13  오후 05:31               879 TakeTrans.java
+2021-05-13  오후 05:31               558 Taxi.java
+               5개 파일               3,512 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter6\singleton 디렉터리
+
+2021-05-13  오후 05:31               281 Car.java
+2021-05-13  오후 05:31               339 CarFactory.java
+2021-05-13  오후 05:31               331 CarFactoryTest.java
+               3개 파일                 951 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter6\staticex 디렉터리
+
+2021-05-13  오후 05:31               602 Student3.java
+2021-05-13  오후 05:31               382 StudentTest6.java
+               2개 파일                 984 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter7\array 디렉터리
+
+2021-05-13  오후 05:31               371 AlphaArray.java
+2021-05-13  오후 05:31               266 Student.java
+2021-05-13  오후 05:31               360 StudentArray.java
+               3개 파일                 997 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter7\arraylist 디렉터리
+
+2021-05-13  오후 05:31               270 Student.java
+2021-05-13  오후 05:31               420 StudentArrayList.java
+               2개 파일                 690 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter9\step1 디렉터리
+
+2021-05-13  오후 05:31               294 AutoCar.java
+2021-05-13  오후 05:31               312 Bus.java
+2021-05-13  오후 05:31               182 Car.java
+2021-05-13  오후 05:31               313 CarTest.java
+               4개 파일               1,101 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Alone\src\chapter9\template 디렉터리
+
+2021-05-13  오후 05:31               396 AICar.java
+2021-05-13  오후 05:31               385 Car.java
+2021-05-13  오후 05:31               306 CarTest.java
+2021-05-13  오후 05:31               374 ManualCar.java
+               4개 파일               1,461 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter10\src\bookshelf 디렉터리
+
+2021-05-13  오후 05:31               278 BookShelf.java
+2021-05-13  오후 05:31               382 BookShelfTest.java
+2021-05-13  오후 05:31               112 Queue.java
+2021-05-13  오후 05:31               277 Shelf.java
+               4개 파일               1,049 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter10\src\interfaceex 디렉터리
+
+2021-05-13  오후 05:31               127 Buy.java
+2021-05-13  오후 05:31               637 Calc.java
+2021-05-13  오후 05:31               232 Calculator.java
+2021-05-13  오후 05:31               558 CalculatorTest.java
+2021-05-13  오후 05:31               430 CompleteCalc.java
+2021-05-13  오후 05:31               293 Customer.java
+2021-05-13  오후 05:31               409 CustomerTest.java
+2021-05-13  오후 05:31               275 MyClass.java
+2021-05-13  오후 05:31               288 MyClassTest.java
+2021-05-13  오후 05:31                86 MyInterface.java
+2021-05-13  오후 05:31               130 Sell.java
+2021-05-13  오후 05:31                59 X.java
+2021-05-13  오후 05:31                57 Y.java
+              13개 파일               3,581 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter10\src\scheduler 디렉터리
+
+2021-05-13  오후 05:31               395 LeastJob.java
+2021-05-13  오후 05:31               418 PriorityAllocation.java
+2021-05-13  오후 05:31               350 RoundRobin.java
+2021-05-13  오후 05:31               114 Scheduler.java
+2021-05-13  오후 05:31               808 SchedulerTest.java
+               5개 파일               2,085 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter11\src\classex 디렉터리
+
+2021-05-13  오후 05:31               569 ClassTest.java
+2021-05-13  오후 05:31               373 NewInstanceTest.java
+2021-05-13  오후 05:31               440 Person.java
+2021-05-13  오후 05:31               644 StringClassTest.java
+               4개 파일               2,026 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter11\src\object 디렉터리
+
+2021-05-13  오후 05:31               559 ArrayCloneTest.java
+2021-05-13  오후 05:31             1,891 EqualsTest.java
+2021-05-13  오후 05:31               418 HashCodeTest.java
+2021-05-13  오후 05:31               994 ObjectArrayClone.java
+2021-05-13  오후 05:31               904 ObjectCloneTest.java
+2021-05-13  오후 05:31               556 StringEquals.java
+2021-05-13  오후 05:31               446 ToStringEx.java
+               7개 파일               5,768 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter11\src\string 디렉터리
+
+2021-05-13  오후 05:31               929 StringBuilderTest.java
+2021-05-13  오후 05:31               403 StringTest1.java
+2021-05-13  오후 05:31               481 StringTest2.java
+               3개 파일               1,813 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter11\src\wrapper 디렉터리
+
+2021-05-13  오후 05:31               439 IntegerTest.java
+               1개 파일                 439 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter12\src\collection 디렉터리
+
+2021-05-13  오후 05:31             1,151 Member.java
+2021-05-13  오후 05:31             1,123 Member2.java
+               2개 파일               2,274 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter12\src\collection\arraylist 디렉터리
+
+2021-05-13  오후 05:31             1,480 MemberArrayList.java
+2021-05-13  오후 05:31               701 MemberArrayListTest.java
+2021-05-13  오후 05:31               682 QueueTest.java
+2021-05-13  오후 05:31               660 StackTest.java
+               4개 파일               3,523 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter12\src\collection\hashset 디렉터리
+
+2021-05-13  오후 05:31               402 HashSetTest.java
+2021-05-13  오후 05:31               779 MemberHashSet.java
+2021-05-13  오후 05:31               642 MemberHashSetTest.java
+               3개 파일               1,823 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter12\src\collection\linkedlist 디렉터리
+
+2021-05-13  오후 05:31               480 LinkedListTest.java
+2021-05-13  오후 05:31               759 MemberLinkecList.java
+2021-05-13  오후 05:31               519 MemberLinkedListTest.java
+               3개 파일               1,758 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter12\src\collection\treeset 디렉터리
+
+2021-05-13  오후 05:31               461 ComparatorTest.java
+2021-05-13  오후 05:31               782 MemberTreeSet.java
+2021-05-13  오후 05:31               645 MemberTreeSetTest.java
+2021-05-13  오후 05:31               323 TreeSetTest.java
+               4개 파일               2,211 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter12\src\generics 디렉터리
+
+2021-05-13  오후 05:31               752 GenericMethod.java
+2021-05-13  오후 05:31               332 GenericPrinter.java
+2021-05-13  오후 05:31               818 GenericPrinterTest.java
+2021-05-13  오후 05:31               396 GenericPrinterTest2.java
+2021-05-13  오후 05:31                92 Material.java
+2021-05-13  오후 05:31               602 MyArrayTest.java
+2021-05-13  오후 05:31               562 MyArrayTest2.java
+2021-05-13  오후 05:31               210 Plastic.java
+2021-05-13  오후 05:31               189 Point.java
+2021-05-13  오후 05:31               209 Powder.java
+2021-05-13  오후 05:31               209 ThreeDPrinter.java
+2021-05-13  오후 05:31               248 ThreeDPrinterTest.java
+2021-05-13  오후 05:31                43 Water.java
+              13개 파일               4,662 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter12\src\generics\factory 디렉터리
+
+2021-05-13  오후 05:31               204 CarFactory.java
+2021-05-13  오후 05:31               852 FactoryTest.java
+2021-05-13  오후 05:31                56 GasStation.java
+2021-05-13  오후 05:31               207 ShipFactory.java
+2021-05-13  오후 05:31               691 Vehicle.java
+               5개 파일               2,010 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter12\src\map\hashmap 디렉터리
+
+2021-05-13  오후 05:31               797 MemberHashMap.java
+2021-05-13  오후 05:31               653 MemberHashMapTest.java
+               2개 파일               1,450 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter12\src\map\treemap 디렉터리
+
+2021-05-13  오후 05:31               794 MemberTreeMap.java
+2021-05-13  오후 05:31               650 MemberTreeMapTest.java
+               2개 파일               1,444 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter13\src\innerclass 디렉터리
+
+2021-05-13  오후 05:31               631 AnonymousInnerTest.java
+2021-05-13  오후 05:31             2,315 InnerTest.java
+2021-05-13  오후 05:31               864 LocalInnerTest.java
+               3개 파일               3,810 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter13\src\lambda 디렉터리
+
+2021-05-13  오후 05:31                95 Add.java
+2021-05-13  오후 05:31               103 MyNumber.java
+2021-05-13  오후 05:31               101 StringConcat.java
+2021-05-13  오후 05:31               176 StringConCatImpl.java
+2021-05-13  오후 05:31               163 TestAdd.java
+2021-05-13  오후 05:31               634 TestLambda.java
+2021-05-13  오후 05:31               346 TestMyNumber.java
+2021-05-13  오후 05:31               586 TestStringConcat.java
+               8개 파일               2,204 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter13\src\stream 디렉터리
+
+2021-05-13  오후 05:31               640 ArrayListStreamTest.java
+2021-05-13  오후 05:31               659 ArrayStreamTest.java
+2021-05-13  오후 05:31               134 CalculateGrade.java
+2021-05-13  오후 05:31               372 IntArrayTest.java
+2021-05-13  오후 05:31               864 ReduceTest.java
+2021-05-13  오후 05:31               494 TravelCustomer.java
+2021-05-13  오후 05:31               977 TravelTest.java
+               7개 파일               4,140 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter14\src\exception 디렉터리
+
+2021-05-13  오후 05:31               380 ArrayExceptionHandling.java
+2021-05-13  오후 05:31               182 AutoCloseObj.java
+2021-05-13  오후 05:31               302 AutoCloseTest.java
+2021-05-13  오후 05:31               353 AutoCloseTest2.java
+2021-05-13  오후 05:31               430 ExceptionHandling1.java
+2021-05-13  오후 05:31               618 ExceptionHandling2.java
+2021-05-13  오후 05:31               328 ExceptionHandling3.java
+2021-05-13  오후 05:31               138 IDFormatException.java
+2021-05-13  오후 05:31               810 IDFormatTest.java
+2021-05-13  오후 05:31               739 ThrowsException.java
+2021-05-13  오후 05:31               690 ThrowsException2.java
+              11개 파일               4,970 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter15\src\stream\decorator 디렉터리
+
+2021-05-13  오후 05:31               876 BufferedStreamTest.java
+2021-05-13  오후 05:31               934 DataStreamTest.java
+2021-05-13  오후 05:31               675 FileCopyTest.java
+2021-05-13  오후 05:31               461 InputStreamReaderTest.java
+               4개 파일               2,946 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter15\src\stream\inputstream 디렉터리
+
+2021-05-13  오후 05:31               637 FileInputStreamTest1.java
+2021-05-13  오후 05:31               510 FileInputStreamTest2.java
+2021-05-13  오후 05:31               599 FileInputStreamTest3.java
+2021-05-13  오후 05:31               575 FileInputStreamTest4.java
+2021-05-13  오후 05:31               476 FileInputStreamTest5.java
+2021-05-13  오후 05:31               656 FileInputStreamTest6.java
+2021-05-13  오후 05:31               395 SystemInTest1.java
+2021-05-13  오후 05:31               358 SystemInTest2.java
+               8개 파일               4,206 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter15\src\stream\others 디렉터리
+
+2021-05-13  오후 05:31               500 ConsoleTest.java
+2021-05-13  오후 05:31               565 FileTest.java
+2021-05-13  오후 05:31               834 RandomAccessFileTest.java
+2021-05-13  오후 05:31               456 ScannerTest.java
+               4개 파일               2,355 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter15\src\stream\outputstream 디렉터리
+
+2021-05-13  오후 05:31               417 FileOutputStreamTest1.java
+2021-05-13  오후 05:31               632 FileOutputStreamTest2.java
+2021-05-13  오후 05:31               601 FileOutputStreamTest3.java
+2021-05-13  오후 05:31               430 FileOutputStreamTest4.java
+               4개 파일               2,080 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter15\src\stream\reader 디렉터리
+
+2021-05-13  오후 05:31               385 FileInputStreamTest2.java
+2021-05-13  오후 05:31               347 FileReaderTest.java
+               2개 파일                 732 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter15\src\stream\serialization 디렉터리
+
+2021-05-13  오후 05:31             1,223 ExternalizableTest.java
+2021-05-13  오후 05:31             1,855 SerializationTest.java
+2021-05-13  오후 05:31             1,960 SerializationTest2.java
+               3개 파일               5,038 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter15\src\stream\writer 디렉터리
+
+2021-05-13  오후 05:31               581 FileWriterTest.java
+               1개 파일                 581 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter2\src\chapter2 디렉터리
+
+2021-05-13  오후 05:31               281 BinaryTest.java
+2021-05-13  오후 05:31               157 BooleanEx.java
+2021-05-13  오후 05:31               245 ByteVariable.java
+2021-05-13  오후 05:31               194 CharacterEx2.java
+2021-05-13  오후 05:31               274 CharacterEx3.java
+2021-05-13  오후 05:31               268 Constant.java
+2021-05-13  오후 05:31               198 DoubleEx1.java
+2021-05-13  오후 05:31               200 DoubleEx2.java
+2021-05-13  오후 05:31               365 ExplicitConversion.java
+2021-05-13  오후 05:31               236 Hexadecimal.java
+2021-05-13  오후 05:31               368 ImplicitConversion.java
+2021-05-13  오후 05:31               174 IntegerVariable.java
+2021-05-13  오후 05:31               208 IntegerVariable1.java
+2021-05-13  오후 05:31               210 LongVariable.java
+2021-05-13  오후 05:31               276 TypeInference.java
+2021-05-13  오후 05:31               229 Variable1.java
+2021-05-13  오후 05:31               190 Variable2.java
+              17개 파일               4,073 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter3\src\arithmetic 디렉터리
+
+2021-05-13  오후 05:31               269 OperationEx.java
+2021-05-13  오후 05:31               307 OperationEx2.java
+2021-05-13  오후 05:31               423 OperationEx3.java
+               3개 파일                 999 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter3\src\assingment 디렉터리
+
+2021-05-13  오후 05:31               225 OperationEx0.java
+               1개 파일                 225 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter3\src\bitop 디렉터리
+
+2021-05-13  오후 05:31               141 OperationEx10.java
+2021-05-13  오후 05:31               485 OperationEx5.java
+2021-05-13  오후 05:31               187 OperationEx7.java
+2021-05-13  오후 05:31               189 OperationEx8.java
+2021-05-13  오후 05:31               188 OperationEx9.java
+               5개 파일               1,190 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter3\src\complex 디렉터리
+
+2021-05-13  오후 05:31               357 OperationEx12.java
+               1개 파일                 357 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter3\src\condition 디렉터리
+
+2021-05-13  오후 05:31               237 OperationEx7.java
+               1개 파일                 237 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter3\src\logical 디렉터리
+
+2021-05-13  오후 05:31               453 OperationEx5.java
+2021-05-13  오후 05:31               433 OperationEx6.java
+               2개 파일                 886 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter3\src\operator 디렉터리
+
+2021-05-13  오후 05:31               292 OperationEx1.java
+2021-05-13  오후 05:31               357 OperationEx2.java
+2021-05-13  오후 05:31               431 OperationEx3.java
+2021-05-13  오후 05:31               225 OperationEx4.java
+2021-05-13  오후 05:31               488 OperationEx5.java
+               5개 파일               1,793 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter3\src\relational 디렉터리
+
+2021-05-13  오후 05:31               378 OperationEx4.java
+               1개 파일                 378 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter4\src\ifexample 디렉터리
+
+2021-05-13  오후 05:31               444 IfExample.java
+2021-05-13  오후 05:31               290 IfExample1.java
+2021-05-13  오후 05:31               519 IfExample2.java
+2021-05-13  오후 05:31               510 IfExample3.java
+2021-05-13  오후 05:31               364 IfExample4.java
+2021-05-13  오후 05:31               407 SwitchCase.java
+2021-05-13  오후 05:31               370 SwitchCase1.java
+2021-05-13  오후 05:31               428 SwitchCase2.java
+2021-05-13  오후 05:31               389 SwitchCase3.java
+2021-05-13  오후 05:31               486 SwitchCase4.java
+              10개 파일               4,207 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter4\src\loopexample 디렉터리
+
+2021-05-13  오후 05:31               287 BasicLoop.java
+2021-05-13  오후 05:31               262 BreakExample1.java
+2021-05-13  오후 05:31               282 BreakExample2.java
+2021-05-13  오후 05:31               306 ContinueExample.java
+2021-05-13  오후 05:31               290 DoWhileExample.java
+2021-05-13  오후 05:31               240 ForExample1.java
+2021-05-13  오후 05:31               293 NestedLoop.java
+2021-05-13  오후 05:31               245 WhileExample1.java
+               8개 파일               2,205 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter5\src\classpart 디렉터리
+
+2021-05-13  오후 05:31               221 Calculator.java
+2021-05-13  오후 05:31               325 FunctionTest.java
+2021-05-13  오후 05:31               121 Person.java
+2021-05-13  오후 05:31               569 Student.java
+2021-05-13  오후 05:31               273 StudentTest.java
+2021-05-13  오후 05:31               349 StudentTest1.java
+2021-05-13  오후 05:31               314 StudentTest2.java
+               7개 파일               2,172 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter5\src\constructor 디렉터리
+
+2021-05-13  오후 05:31               315 Person.java
+2021-05-13  오후 05:31               287 PersonTest.java
+               2개 파일                 602 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter5\src\hiding  디렉터리
+
+2021-05-13  오후 05:31                98 MyDate.java
+2021-05-13  오후 05:31               177 MyDateTest.java
+2021-05-13  오후 05:31               268 Student.java
+2021-05-13  오후 05:31               263 StudentTest.java
+               4개 파일                 806 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter5\src\reference 디렉터리
+
+2021-05-13  오후 05:31               118 Student1.java
+2021-05-13  오후 05:31               161 Student2.java
+2021-05-13  오후 05:31               397 Student3.java
+2021-05-13  오후 05:31               693 Student4.java
+2021-05-13  오후 05:31               414 StudentTest.java
+2021-05-13  오후 05:31                84 Subject.java
+               6개 파일               1,867 바이트
+
+ C:\Users\KOSMO\Desktop\Fullstack개발자과정\JAVA_LAB-src\Chapter6\src\cooperation 디렉터리
+
+2021-05-13  오후 05:31               654 Bus.java
+               1개 파일                 654 바이트
+
+     전체 파일:
+             265개 파일             122,635 바이트
+               0개 디렉터리  176,905,297,920 바이트 남음
+
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>dir *.java
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO 디렉터리
+
+2021-05-13  오후 05:25               312 FirstJava.java
+2021-05-14  오전 10:51               198 HelloJava.java
+2021-05-14  오전 11:08               162 MyName.java
+               3개 파일                 672 바이트
+               0개 디렉터리  176,905,248,768 바이트 남음
+
+C:\Users\KOSMO>mv
+'mv'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+C:\Users\KOSMO>move
+명령 구문이 올바르지 않습니다.
+
+C:\Users\KOSMO>move /?
+파일을 옮기고 파일과 디렉터리 이름을 바꿉니다.
+
+하나 이상의 파일을 옮기려면:
+MOVE [/Y | /-Y] [드라이브:][경로]파일 이름1[,...] 대상
+
+디렉터리 이름을 바꾸려면:
+MOVE [/Y | /-Y] [드라이브:][경로]디렉터리 이름1 디렉터리 이름2
+
+  [드라이브:][경로]파일 이름1 파일이나 옮길 파일의 위치와 이름을
+                          지정합니다.
+  대상                  파일의 새 위치를 지정합니다. 대상은
+                          드라이브 문자와 콜론, 디렉터리 이름, 또는 조합으로
+                         구성될 수 있습니다. 한 파일만 옮기려면,
+                         옮길 때 이름을 바꿀 파일이 있으면
+                           파일 이름을 포함할 수 있습니다.
+  [드라이브:][경로]디렉터리 이름1  이름을 바꿀 디렉터리를 지정합니다.
+  디렉터리 이름2                디렉터리의 새 이름을 지정합니다.
+
+  /Y                      이미 있는 대상 파일을 겹쳐 쓸지
+                          묻는 것을 금합니다.
+  /-Y                     이미 있는 대상 파일을 겹쳐 쓸지
+                          묻습니다.
+
+COPYCMD 환경 변수에 /Y 스위치가 나타날 수도 있습니다.
+명령줄에 있는 /-Y를 사용하여 무시될 수도 있습니다.
+일괄 처리 스크립트 내에서 MOVE 명령어를 실행하지 않으면 기본적으로
+덮어쓸지를 묻습니다.
+
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>move HelloJava.java MyName.java Desktop\Work
+C:\Users\KOSMO>
+C:\Users\KOSMO>dir *.java
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO 디렉터리
+
+2021-05-13  오후 05:25               312 FirstJava.java
+2021-05-14  오전 10:51               198 HelloJava.java
+2021-05-14  오전 11:08               162 MyName.java
+               3개 파일                 672 바이트
+               0개 디렉터리  176,905,248,768 바이트 남음
+
+C:\Users\KOSMO>move *.java Desktop\Work
+C:\Users\KOSMO\FirstJava.java
+C:\Users\KOSMO\HelloJava.java
+C:\Users\KOSMO\MyName.java
+        3개 파일을 이동했습니다.
+
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>dir .\Desktop\Work
+C:\Users\KOSMO>dir Desktop\Work
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO\Desktop\Work 디렉터리
+
+2021-05-14  오후 12:07    <DIR>          .
+2021-05-14  오후 12:07    <DIR>          ..
+2021-05-13  오후 05:25               312 FirstJava.java
+2021-05-14  오전 10:51               198 HelloJava.java
+2021-05-14  오전 11:08               162 MyName.java
+               3개 파일                 672 바이트
+               2개 디렉터리  176,904,683,520 바이트 남음
+
+C:\Users\KOSMO>
+C:\Users\KOSMO>dir *.class
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO 디렉터리
+
+2021-05-13  오후 05:26               514 FirstJava.class
+2021-05-14  오전 10:51               459 HelloJava.class
+               2개 파일                 973 바이트
+               0개 디렉터리  176,904,667,136 바이트 남음
+
+C:\Users\KOSMO>del *.class
+
+C:\Users\KOSMO>dir *.class
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO 디렉터리
+
+파일을 찾을 수 없습니다.
+
+C:\Users\KOSMO>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO 디렉터리
+
+2021-05-14  오후 12:10    <DIR>          .
+2021-05-14  오후 12:10    <DIR>          ..
+2021-05-11  오후 04:33    <DIR>          3D Objects
+2021-05-11  오후 09:38    <DIR>          ansel
+2021-05-11  오후 04:33    <DIR>          Contacts
+2021-05-14  오후 12:04    <DIR>          Desktop
+2021-05-14  오후 12:03    <DIR>          Documents
+2021-05-14  오전 10:55    <DIR>          Downloads
+2021-05-11  오후 04:33    <DIR>          Favorites
+2021-05-14  오전 10:59    <DIR>          hello
+2021-05-14  오전 11:09    <DIR>          kosmo
+2021-05-11  오후 04:33    <DIR>          Links
+2021-05-11  오후 04:33    <DIR>          Music
+2021-05-11  오후 05:32    <DIR>          OneDrive
+2021-05-11  오후 04:34    <DIR>          Pictures
+2021-05-11  오후 04:33    <DIR>          Saved Games
+2021-05-11  오후 04:34    <DIR>          Searches
+2021-05-11  오후 04:33    <DIR>          Videos
+               0개 파일                   0 바이트
+              18개 디렉터리  176,904,581,120 바이트 남음
+
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>
+C:\Users\KOSMO>rmdir /s hello kosmo
+hello, 계속하시겠습니까(Y/N)? y
+kosmo, 계속하시겠습니까(Y/N)? y
+
+C:\Users\KOSMO>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2EF7-D9B6
+
+ C:\Users\KOSMO 디렉터리
+
+2021-05-14  오후 12:11    <DIR>          .
+2021-05-14  오후 12:11    <DIR>          ..
+2021-05-11  오후 04:33    <DIR>          3D Objects
+2021-05-11  오후 09:38    <DIR>          ansel
+2021-05-11  오후 04:33    <DIR>          Contacts
+2021-05-14  오후 12:04    <DIR>          Desktop
+2021-05-14  오후 12:03    <DIR>          Documents
+2021-05-14  오전 10:55    <DIR>          Downloads
+2021-05-11  오후 04:33    <DIR>          Favorites
+2021-05-11  오후 04:33    <DIR>          Links
+2021-05-11  오후 04:33    <DIR>          Music
+2021-05-11  오후 05:32    <DIR>          OneDrive
+2021-05-11  오후 04:34    <DIR>          Pictures
+2021-05-11  오후 04:33    <DIR>          Saved Games
+2021-05-11  오후 04:34    <DIR>          Searches
+2021-05-11  오후 04:33    <DIR>          Videos
+               0개 파일                   0 바이트
+              16개 디렉터리  176,904,376,320 바이트 남음
+
+C:\Users\KOSMO>
+C:\Users\KOSMO>
