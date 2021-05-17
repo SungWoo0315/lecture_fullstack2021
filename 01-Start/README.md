@@ -3,6 +3,8 @@
 ## 01. 컴퓨터 이해
   - [day1-3.md](day1-3.md)
 ## 02. Java
+  - [day1-3.md](day1-3.md)
+  - [day4-7.md](./day4_7/README.md)
 
 ## 03. Android
 
