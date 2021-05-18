@@ -54,6 +54,13 @@
 
 ---
 
+# 애플리케이션 테스트
+
+### JUnit 사용
+
+
+---
+
 # Android Mobile Programming
 
 ### 1. Android 아키텍처
