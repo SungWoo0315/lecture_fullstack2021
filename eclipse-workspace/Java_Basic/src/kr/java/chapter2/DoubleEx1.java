@@ -50,12 +50,12 @@ public class DoubleEx1 {
 		b1 = b2;
 		System.out.println("b1: " + b1);
 		
-		i1 = (int) b1;
-		b1 = (boolean) i1;
-
-		byte bt = 1;
-		b1 = (boolean)bt;
-		bt = (byte)b1;
+//		i1 = (int) b1;
+//		b1 = (boolean) i1;
+//
+//		byte bt = 1;
+//		b1 = (boolean)bt;
+//		bt = (byte)b1;
 		
 		
 		// 값 변경이 안되는 식별자! (변수) => 상수 Constant.
