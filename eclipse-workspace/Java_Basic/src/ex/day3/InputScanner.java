@@ -1,4 +1,4 @@
-package ex.java;
+package ex.day3;
 
 public class InputScanner {
 
