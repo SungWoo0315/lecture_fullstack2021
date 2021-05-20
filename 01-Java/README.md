@@ -24,6 +24,11 @@
 1. [day4_7/Java-day5.pdf](/01-Start/day4_7/Java-day5.pdf)
 2. 과제 Java-day5.pdf 의 과제를 작성한후 개인 깃헙에 올리고 링크를 메일로 전송
 
+  - 배열
+
+3. 5/20 로그 및 과제: [Java-day6.pdf](/01-Java/files/Java-day6.pdf)
+
+
 ### 4. 클래스
 
  - OOP
