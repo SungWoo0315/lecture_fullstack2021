@@ -39,6 +39,9 @@
  - 생성자
  - 참조 자료형
 
+1. ***5/21 로그 및 과제***: [Java-day7.pdf](/01-Java/files/Java-day7.pdf)
+
+
 ### 5. 클래스 객체
 
   - this, super
