@@ -29,7 +29,7 @@
 송효재	 | https://github.com/foaldks2092 | https://foaldks2092.github.io/ | ''
 신우진	 | https://github.com/tlsdnwls97 | https//tlsdnwls97.github.io  | ''
 심영섭	 |  https://github.com/rtjoshuas | https://rtjoshuas.github.io/  | ''
-오세황	 | https://github.com/spada9403/ | https://spada9403.github.io/  | ''
+오세황	 | https://github.com/spada9403/ | https://spada9403.github.io/  | https://www.linkedin.com/in/seahwang
 오승민	 | https://github.com/lululala1004 | https://lululala1004.github.io/  | ''
 이동희	 | https://github.com/Edonghee/ | https://edonghee.github.io/ | ''
 이상용	 | https://github.com/ercy123/ | https://ercy123.github.io/  | ''
