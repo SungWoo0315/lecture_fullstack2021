@@ -1,5 +1,15 @@
 # Java Basic Programming
 
+
+1. 5/14 로그 및 과제: [Java-day5.pdf](/01-Start/day4_7/Java-day5.pdf)
+1. 5/17 로그 및 과제: [Java-day5.pdf](/01-Start/day4_7/Java-day5.pdf)
+1. 5/20 로그 및 과제: [Java-day6.pdf](/01-Java/files/Java-day6.pdf)
+1. 5/21 로그 및 과제: [Java-day7.pdf](/01-Java/files/Java-day7.pdf)
+
+--- 
+
+목차.
+
 ### 1. 구문 작성 Day3,
 
  - 자바 코드 작성
@@ -20,14 +30,7 @@
  - 문자열 연산자
  - 제어문
  - 반복문
-
-1. [day4_7/Java-day5.pdf](/01-Start/day4_7/Java-day5.pdf)
-2. 과제 Java-day5.pdf 의 과제를 작성한후 개인 깃헙에 올리고 링크를 메일로 전송
-
-  - 배열
-
-3. 5/20 로그 및 과제: [Java-day6.pdf](/01-Java/files/Java-day6.pdf)
-
+- 배열
 
 ### 4. 클래스
 
@@ -39,7 +42,6 @@
  - 생성자
  - 참조 자료형
 
-1. ***5/21 로그 및 과제***: [Java-day7.pdf](/01-Java/files/Java-day7.pdf)
 
 
 ### 5. 클래스 객체
