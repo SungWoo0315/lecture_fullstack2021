@@ -2,6 +2,8 @@ package ex.day7.student.lee;
 
 import java.util.Scanner;
 
+// https://github.com/Edonghee/2021study/tree/main/0521/%EC%88%98%EC%97%85%EB%95%8C%20%ED%95%9C%EA%B1%B0/ex/day8
+
 public class StudentMain {
 
 	public static void main(String[] args) {

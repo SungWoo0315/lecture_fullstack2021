@@ -2,6 +2,8 @@ package ex.day7.student.kk;
 
 import java.util.Scanner;
 
+//
+// https://github.com/MingGin/MingGin.github.io/blob/master/_posts/05-21%EC%8B%A4%EC%8A%B5.java
 public class StudentTest {
 
 	public static void main(String[] args) {
