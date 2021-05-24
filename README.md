@@ -23,7 +23,7 @@
 김영진	 | https://dudwls311.github.io/  https://github.com/dudwls311
 문덕규	 | https://rainbow1324.github.io/   https://github.com/rainbow1324/task
 박태경	 | https://github.com/tae1296/github-practice
-변희원	 | https://heewonbyun.github.io/
+변희원	 | https://github.com/HeewonByun/, https://heewonbyun.github.io/
 성이현	 | https://eroonsung.github.io/   https://github.com/eroonsung/KOSMO_Java    https://www.linkedin.com/in/eroonsung/
 손현호	 | https://icraft2170.github.io/  https://github.com/icraft2170/icraft2170
 송효재	 | https://foaldks2092.github.io/myhomework/ 
