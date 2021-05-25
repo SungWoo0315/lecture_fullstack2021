@@ -5,7 +5,8 @@
 1. 5/17 로그 및 과제: [Java-day5.pdf](/01-Start/day4_7/Java-day5.pdf)
 1. 5/20 로그 및 과제: [Java-day6.pdf](/01-Java/files/Java-day6.pdf)
 1. 5/21 로그 및 과제: [Java-day7.pdf](/01-Java/files/Java-day7.pdf)
-1. 5/24 로그(오전): [Java-day9.pdf](/01-Java/files/Java-day9.pdf)
+1. 5/24 로그 및 실습: [Java-day8.pdf](/01-Java/files/Java-day8.pdf)
+1. 5/25 로그 및 실습: [Java-day9.pdf](/01-Java/files/Java-day9.pdf)
 
 ---
 
