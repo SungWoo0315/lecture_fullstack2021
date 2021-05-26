@@ -54,6 +54,12 @@
   - static
   - 유효범위
 
+#### 객체지향 언어 특성
+  1. 추상화 https://codevang.tistory.com/78
+  2. 캡슐화 https://codevang.tistory.com/79
+  3. 상속    https://codevang.tistory.com/80
+  4. 다형성 https://codevang.tistory.com/81
+
 
 ### 6. 기본 클래스
 
