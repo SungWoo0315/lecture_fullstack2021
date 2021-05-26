@@ -1,23 +1,6 @@
 package kr.java.chapter5;
 
 
-class Student {
-	String name;
-}
-
-
-class Student1 {
-	int id;
-	String subject;
-}
-
-
-
-
-
-
-
-
 public class MethodClass {
 	
 	// 멤버 변수/필드/속성...

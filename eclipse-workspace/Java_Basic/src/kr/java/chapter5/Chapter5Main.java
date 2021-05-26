@@ -44,21 +44,6 @@ public class Chapter5Main {
 		System.out.println( st.showStudentInfo() );
 
 		
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 				
 	}
 
