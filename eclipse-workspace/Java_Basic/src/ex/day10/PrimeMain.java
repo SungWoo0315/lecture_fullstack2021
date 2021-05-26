@@ -16,6 +16,7 @@ public class PrimeMain {
 }
 
 class Prime {
+	
 	int number; // 대상 수
 	int[] primeNumbers;
 
