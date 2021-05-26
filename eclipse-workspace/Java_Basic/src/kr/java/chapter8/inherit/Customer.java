@@ -45,6 +45,8 @@ public class Customer {
 		
 		this.customerID = customerID;
 		this.customerName = customerName;
+
+		System.out.println("Customer() 생성자 호출.");
 	}
 	
 	public int calcPrice(int price){
@@ -52,7 +54,7 @@ public class Customer {
 		return price;
 	}
 	
-	public String showCustomerInfo(){
+	protected String showCustomerInfo(){
 		return customerName + " 님의 등급은 " + customerGrade + "이며, 보너스 포인트는 " + bonusPoint + "입니다.";  
 	}
 
