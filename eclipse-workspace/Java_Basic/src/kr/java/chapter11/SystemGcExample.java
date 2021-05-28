@@ -15,8 +15,6 @@ class Employee {
 }
 
 public class SystemGcExample {
-
-
 	public static void main(String[] args) {
 		Employee emp = new Employee(1);
 		emp = null;
@@ -25,5 +23,4 @@ public class SystemGcExample {
 		System.out.println("Emplyee " + emp.eno );
 		System.gc();
 	}
-
 }
