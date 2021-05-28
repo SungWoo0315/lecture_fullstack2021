@@ -18,6 +18,32 @@ public class StringIndexing {
 		System.out.println(str.startsWith("Java"));
 		
 		
+		// trim
+		// Scanner -> 
+		String str1 = "           하하하";
+		String str2 = "호호호       ";
+		String str3 = "       호호호       ";
+		
+		System.out.println(str3);
+		System.out.println(str3.trim());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
