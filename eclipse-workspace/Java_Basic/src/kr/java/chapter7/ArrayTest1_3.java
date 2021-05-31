@@ -1,6 +1,6 @@
 package kr.java.chapter7;
 
-public class ArrayTest1 {
+public class ArrayTest1_3 {
 
 	public static void main(String[] args) {
 		// 10개 짜리 문자열 배열
@@ -8,7 +8,11 @@ public class ArrayTest1 {
 		String[] testArray;
 		testArray = new String[10]; // 초기화, null
 		
-		System.out.println(testArray[0]);
+		// System.out.println(testArray[0]);
+		
+		for(int i = 0; i < testArray.length; i++) {
+			testArray[i] = "";
+		}
 		
 		for(int i = 0; i < testArray.length; i++) {
 //			System.out.println(testArray[i].concat("    "));
@@ -16,13 +20,28 @@ public class ArrayTest1 {
 		}
 
 		// Exception
+		
+		//System.out.println(testArray[0].concat("    "));
+
+		try {
+			System.out.println(testArray[0].concat("    "));
+			
+		} catch (Exception e) {
+			System.out.println(e);
+//			System.out.println(e.getMessage());
+		} finally {
+			testArray[0] = "";
+			System.out.println("항상 예외처리 후 할 일!!!!");			
+		}
+
+		
 		for(int i = 0; i < testArray.length; i++) {
 			try {
 				System.out.println(testArray[i].concat("    "));
 				
 			} catch (NullPointerException e) {
-				System.out.println(e);
-				System.out.println(e.getMessage());
+//				System.out.println(e);
+//				System.out.println(e.getMessage());
 			}
 		}
 
