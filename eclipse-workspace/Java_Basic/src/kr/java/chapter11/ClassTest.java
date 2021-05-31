@@ -27,6 +27,13 @@ public class ClassTest {
 		}
 		System.out.println(c.getName());
 		
+		try {
+			CloneTest ct = (CloneTest)c.newInstance();
+		} catch (InstantiationException | IllegalAccessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 		
 	}
 
