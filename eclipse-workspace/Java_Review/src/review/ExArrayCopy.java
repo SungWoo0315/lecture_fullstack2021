@@ -18,6 +18,16 @@ public class ExArrayCopy {
 		}
 	}
 	
+	/*
+	int[] arrayCopy(int[] arr, int index, int[] darr, int dstPos, int length) {
+
+		for (int i = index; i < index + length; i++) {
+			darr[dstPos] = arr[i];
+			dstPos++;
+		}
+		return darr;
+	} */
+	
 	public void arrayPrint(int[] arr) {
 		for(int i : arr) {
 			System.out.println(i);
