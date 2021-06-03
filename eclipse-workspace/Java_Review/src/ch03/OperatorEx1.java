@@ -86,9 +86,18 @@ public class OperatorEx1 {
 		System.out.println( !true );
 
 		
-		
-		
-		
+		// 복합대입.
+		// 대입+연산자: +=, -=, *=, /=, %=...
+		// 시프트 복합: >>=, <<=, >>>=, 
+		// 논리비트 복합: &=, |=, ^=
+		int num1 = 100;
+		num1 += 2; // num1 = num1 + 2
+		System.out.println( "+=: " + (num1 += 2) );
+		System.out.println( "+=: " + num1 );
+
+		System.out.println( "-=: " + (num1 -= 2) );
+		System.out.println( "*=: " + (num1 *= 2) );
+
 		
 		
 		
