@@ -1,6 +1,6 @@
-package ch06;
+package ch10;
 
-public class Subway {
+public class Subway implements Take {
 
 	int lineNumber; //  번호
 	int passengerCount; // 승객 수
@@ -10,6 +10,7 @@ public class Subway {
 		this.lineNumber = number;
 	}
 	
+	@Override
 	public void take(int money) // 승객이 낸 돈을 받음
 	{
 		this.money += money; // 수입 증가
